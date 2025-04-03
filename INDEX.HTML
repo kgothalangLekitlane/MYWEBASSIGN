@@ -3,31 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Responsive Webpage Test</title>
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>My webpage assignment</h1>
+        <h1 id="header-text">Interactive Webpage</h1>
     </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
-    <div class="container">
-        <aside class="sidebar">
-            <h2>Sidebar</h2>
-            <p>Some sidebar content.</p>
-        </aside>
-        <section class="content">
-            <h2>Main Content</h2>
-            <p>This is the main content area that expands based on screen size.</p>
-        </section>
-    </div>
+
+    <section class="container">
+        <article class="content" id="content">
+            <p>This is an interactive content area.</p>
+        </article>
+        
+        <button id="changeTextBtn">Change Text</button>
+        <button id="toggleElementBtn">Add/Remove Element</button>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Responsive Webpage</p>
+        <p>&copy; 2025 Interactive Webpage</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
